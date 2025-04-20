@@ -13,13 +13,14 @@ The **160 Days Coding Challenge** by GeeksforGeeks is designed to help individua
 - 📌 Focus: Python Solutions for DSA Problems
 - 🧠 Topics Covered: Arrays, Strings, Linked Lists, Trees, Graphs, Dynamic Programming, Greedy Algorithms, and more!
 
-👋 Hi, I’m @kartikey-here
-👀 I’m interested in Programming, developing and Learning new technologies day by day.
-💞️ I’m an Associate Analyst - Data Engineer at Deloitte USI.
-🌱 I graduated in BCA from United Institute of Management, Prayagraj.
-📫 How to reach me ... Contact me at wtakartikey@gmail.com
-🦋 Instagram: instagram.com/kartikey_._here
-🐤 Twitter: x.com/kartikey_here
-💻 GeeksForGeeks: geeksforgeeks.org/user/kartikey_here/
-💻 LeetCode: leetcode.com/u/wtakartikey/
-💻 HackerRank: hackerrank.com/profile/wtakartikey/
+btw,
+- 👋 Hi, I’m @kartikey-here
+- 👀 I’m interested in Programming, developing and Learning new technologies day by day.
+- 💞️ I’m an Associate Analyst - Data Engineer at Deloitte USI.
+- 🌱 I graduated in BCA from United Institute of Management, Prayagraj.
+- 📫 How to reach me ... Contact me at wtakartikey@gmail.com
+- 🦋 Instagram: instagram.com/kartikey_._here
+- 🐤 Twitter: x.com/kartikey_here
+- 💻 GeeksForGeeks: geeksforgeeks.org/user/kartikey_here/
+- 💻 LeetCode: leetcode.com/u/wtakartikey/
+- 💻 HackerRank: hackerrank.com/profile/wtakartikey/
