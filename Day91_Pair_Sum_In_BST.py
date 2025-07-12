@@ -1,6 +1,5 @@
 #Given a Binary Search Tree(BST) and a target. Check whether there's a pair of Nodes in the BST with value summing up to the target. 
 
-
 '''
 # Tree Node
 class Node:
@@ -13,21 +12,27 @@ class Node:
 
 class Solution:
     
-    def inOrder(self, root):
-        if not root: return []   
-        arr = []   
-        arr += self.inOrder(root.left)
-        arr.append(root.data)
-        arr += self.inOrder(root.right)
-        return arr
+        
         
     def findTarget(self, root, target): 
-        _lst = self.inOrder(root)
-        _set = set(_lst)
-        found = False
-        for item in _lst:
-            _set.remove(item)
-            if target - item in _set:
-                found = True
-                break
-        return found
+        def ino(root,inorder):
+            if root is None:
+                return
+            ino(root.left,inorder)
+            inorder.append(root.data)
+            ino(root.right,inorder)
+        # your code here.
+        inorder=[]
+        ino(root, inorder)
+        
+        l,r=0,len(inorder)-1
+        while l<r:
+            cs=inorder[l]+inorder[r]
+            
+            if cs==target:
+                return True
+            if cs<target:
+                l+=1
+            else:
+                r-=1
+        return False
